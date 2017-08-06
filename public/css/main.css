@@ -1,0 +1,183 @@
+/*-------------------------*/
+/* SOCIAL FONT ICON */
+/*-------------------------*/
+
+@font-face {
+    font-family: 'socialicoregular';
+    src: url('../fonts/socialico-webfont.eot');
+    src: url('../fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socialico-webfont.woff2') format('woff2'),
+         url('../fonts/socialico-webfont.woff') format('woff'),
+         url('../fonts/socialico-webfont.ttf') format('truetype'),
+         url('../fonts/socialico-webfont.svg#socialicoregular') format('svg');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f1f1f1;
+	font-family:Arial;
+	font-size:14px;
+	margin:0; 
+	padding: 0;
+}
+.register_wrapper {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: #555;
+}
+.register_wrapper a {
+	color: #555555;
+	text-decoration: underline;
+}
+.register_wrapper a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+.box {
+	padding: 30px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.box hr {
+	border:0;
+	border-top: 2px solid #f1f1f1;
+	margin-bottom: 20px;
+}
+.register_wrapper h2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 8px 0 8px;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset label {
+	margin-bottom: 6px;
+	display: block;
+}
+fieldset.inline div {
+	display: inline-block;
+	margin-right: 8px;
+}
+fieldset.inline label {
+	display: inline-block;
+}
+
+fieldset.inline div:last-child {
+	margin-right:0;
+}
+fieldset.inline div input[type=checkbox] {
+	margin:0 0 0 4px;
+	position: relative;
+	top: 3px;
+}
+
+fieldset .fa {
+	float: left;
+    display: block;
+    position: relative;
+    left: 4px;
+    top: -31px;
+	font-size: 20px;
+}
+
+input[type=button] {
+	color: #fff;
+	background: #555;
+	border:2px solid #555;
+	padding: 12px;	
+	cursor: pointer;
+	text-transform: uppercase;
+	-webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+input[type=button]:hover {	
+	border-color:#333;
+    background: #333;
+}
+
+input[type=text], 
+input[type=email],
+input[type=password] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	border: #555 solid 1px;
+    padding: 12px;
+    margin:0px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    outline: none;
+	width: 100%;
+	background: #f1f1f1;
+	padding-left: 35px;
+	font-size: 16px;
+	border-radius: 4px;
+	height: 40px;
+}
+
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus {
+	border: #222 solid 1px;
+	box-shadow: 0 4px 4px rgba(0,0,0,.125);
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+header, footer {
+	background-color: #555;
+	min-height: 90px;
+}
+header {
+	margin-bottom: 25px;
+}
+footer {
+	margin-top: 25px;
+}
+.social {
+	padding-top: 20px;
+}
+.ico {
+	transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+.social .ico {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	text-align:right;
+	font-family:'socialicoregular';
+    font-size: 44px;
+	height:50px;
+	line-height:50px;
+	float:right;
+	opacity:0.5;
+	cursor:pointer;
+	float:right;
+	color:#333;
+	opacity:1;
+	margin-right: 12px;
+}
+.social .ico:hover {
+	transform: scale(1.2);
+	color: #f1f1f1;
+}
