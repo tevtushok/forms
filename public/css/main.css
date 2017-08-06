@@ -146,11 +146,8 @@ header, footer {
 	background-color: #555;
 	min-height: 90px;
 }
-header {
-	margin-bottom: 25px;
-}
-footer {
-	margin-top: 25px;
+main {
+	padding: 35px 0;
 }
 .social {
 	padding-top: 20px;
